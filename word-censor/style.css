@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZXJuJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.post-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.post-input {
+    outline: none;
+    background: none;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid rgb(246, 221, 132);
+    transition: 200ms ease-in;
+}
+
+.post-input:hover {
+    border: 2px solid rgb(146, 255, 255);
+}
+
+.post-input:focus {
+    border: 2px solid rgb(177, 177, 255);
+}
+
+.submit-button {
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: rgb(246, 221, 132);
+    transition: 400ms ease-in-out;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    background-color: rgb(146, 255, 255);
+}
+
+.submit-button:active {
+    cursor: pointer;
+    background-color: rgb(177, 177, 255);
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button,
+input[type=text]:focus {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 20px;
+}
